@@ -1,8 +1,8 @@
 # personal_details
 
 [App demo on Apetize](https://appetize.io/app/7duimm4ojjibgbuqrjib7fr7em?device=pixel7&osVersion=13.0&scale=75)
-<img src="Screenshot_20230911-043517.png" alt="home screen" style="width:100px;"/>
-<img src="Screenshot_20230911-043800.png" alt="github page" style="width:100px;"/>
+<img src="Screenshot_20230911-043517.png" alt="home screen" style="width:200px;"/>
+<img src="Screenshot_20230911-043800.png" alt="github page" style="width:200px;"/>
 
 ## Task: Create a Mobile Application with Personal Details
 
