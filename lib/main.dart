@@ -4,7 +4,8 @@ import 'package:personal_details/src/webview/githubweb.dart';
 import 'src/homepage/homepage.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MainApp()
+  );
 }
 
 class MainApp extends StatelessWidget {
