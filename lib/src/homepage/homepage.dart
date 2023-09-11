@@ -8,6 +8,7 @@ class MyHomePage extends StatelessWidget {
   // This widget is the home page of your application.
   @override
   Widget build(BuildContext context) {
+    ScreenUtil.init(context);
     return Scaffold(
       appBar: AppBar(
         title: const Text("Personal Profile"),
@@ -22,9 +23,9 @@ class MyHomePage extends StatelessWidget {
               width: ScreenUtil.screenWidth * 0.6,
               height: ScreenUtil.screenWidth * 0.6,
               child: const CircleAvatar(
-                backgroundImage: NetworkImage(
-                  'https://ca.slack-edge.com/T05FFAA91JP-U05RABKBSAW-450e7758538c-512',
-                ),
+                backgroundImage: AssetImage('assets/images/pp.jpg'
+                    // 'https://ca.slack-edge.com/T05FFAA91JP-U05RABKBSAW-450e7758538c-512',
+                    ),
               ),
             ),
             const SizedBox(height: 8),
